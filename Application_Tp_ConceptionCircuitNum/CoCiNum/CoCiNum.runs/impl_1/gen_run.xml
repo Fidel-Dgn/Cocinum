@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1764326243">
+  <File Type="PA-TCL" Name="taptop.tcl"/>
+  <File Type="BITSTR-BMM" Name="taptop_bd.bmm"/>
+  <File Type="REPORTS-TCL" Name="taptop_reports.tcl"/>
+  <File Type="OPT-DCP" Name="taptop_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="taptop.hwdef"/>
+  <File Type="PWROPT-DCP" Name="taptop_pwropt.dcp"/>
+  <File Type="BG-BGN" Name="taptop.bgn"/>
+  <File Type="PLACE-DCP" Name="taptop_placed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="taptop_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="taptop_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="taptop.bin"/>
+  <File Type="PHYSOPT-DCP" Name="taptop_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="taptop.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="taptop_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="taptop_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="taptop_routed_bb.dcp"/>
+  <File Type="BITSTR-LTX" Name="taptop.ltx"/>
+  <File Type="BITSTR-MMI" Name="taptop.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="taptop.sysdef"/>
+  <File Type="ROUTE-TIMING-PB" Name="taptop_timing_summary_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="taptop_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="taptop_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="taptop.bit"/>
+  <File Type="BITSTR-RBT" Name="taptop.rbt"/>
+  <File Type="BITSTR-NKY" Name="taptop.nky"/>
+  <File Type="BG-DRC" Name="taptop.drc"/>
+  <File Type="RDI-RDI" Name="taptop.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../src/vhdl/Counter/CounterModN.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/vhdl/SegmentDisplay/SegmentDecoder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/taptop.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="taptop"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../src/vhdl/Basys3/Basys3_Buttons.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/vhdl/Basys3/Basys3_Clock.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/vhdl/Basys3/Basys3_LEDs.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/vhdl/Basys3/Basys3_PS2.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/vhdl/Basys3/Basys3_PmodA.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/vhdl/Basys3/Basys3_PmodB.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/vhdl/Basys3/Basys3_PmodC.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/vhdl/Basys3/Basys3_PmodXADC.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/vhdl/Basys3/Basys3_SegmentDisplay.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/vhdl/Basys3/Basys3_Switches.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/vhdl/Basys3/Basys3_UART.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/vhdl/Basys3/Basys3_VGA.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/vhdl/Basys3/Basys3_td_combinatoire.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

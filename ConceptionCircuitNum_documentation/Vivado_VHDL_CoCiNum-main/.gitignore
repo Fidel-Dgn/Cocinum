@@ -1,0 +1,12 @@
+*.jou
+*.log
+vivado*.str
+vivado/*/
+*.ghw
+*.o
+__pycache__
+build
+sim_build
+results.xml
+*.cf
+*.hex

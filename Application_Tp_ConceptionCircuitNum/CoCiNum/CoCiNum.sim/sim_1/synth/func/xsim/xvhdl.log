@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Downloads/CoCiNum/vivado/CoCiNum_LIADI_TRAORE/CoCiNum_LIADI_TRAORE.sim/sim_1/synth/func/xsim/MicrowaveTop_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CounterModN'
+INFO: [VRFC 10-3107] analyzing entity '\CounterModN__parameterized0\'
+INFO: [VRFC 10-3107] analyzing entity 'SegmentDecoder'
+INFO: [VRFC 10-3107] analyzing entity 'MicrowaveTop'

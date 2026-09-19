@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Nov 28 11:37:32 2025
+# Process ID: 33896
+# Current directory: C:/Users/user/Downloads/CoCiNum/vivado/CoCiNum_LIADI_TRAORE/CoCiNum_LIADI_TRAORE.runs/impl_1
+# Command line: vivado.exe -log taptop.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source taptop.tcl -notrace
+# Log file: C:/Users/user/Downloads/CoCiNum/vivado/CoCiNum_LIADI_TRAORE/CoCiNum_LIADI_TRAORE.runs/impl_1/taptop.vdi
+# Journal file: C:/Users/user/Downloads/CoCiNum/vivado/CoCiNum_LIADI_TRAORE/CoCiNum_LIADI_TRAORE.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source taptop.tcl -notrace

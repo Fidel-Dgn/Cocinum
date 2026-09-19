@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../src/vhdl/Counter/CounterModN.vhd" \
+"../../../../../../src/vhdl/SegmentDisplay/SegmentDecoder.vhd" \
+"../../../../CoCiNum_LIADI_TRAORE.srcs/sources_1/new/taptop.vhd" \
+
+# Do not sort compile order
+nosort

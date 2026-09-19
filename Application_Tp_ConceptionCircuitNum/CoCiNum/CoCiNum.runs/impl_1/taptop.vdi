@@ -1,0 +1,298 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Nov 28 11:37:32 2025
+# Process ID: 33896
+# Current directory: C:/Users/user/Downloads/CoCiNum/vivado/CoCiNum_LIADI_TRAORE/CoCiNum_LIADI_TRAORE.runs/impl_1
+# Command line: vivado.exe -log taptop.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source taptop.tcl -notrace
+# Log file: C:/Users/user/Downloads/CoCiNum/vivado/CoCiNum_LIADI_TRAORE/CoCiNum_LIADI_TRAORE.runs/impl_1/taptop.vdi
+# Journal file: C:/Users/user/Downloads/CoCiNum/vivado/CoCiNum_LIADI_TRAORE/CoCiNum_LIADI_TRAORE.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source taptop.tcl -notrace
+Command: link_design -top taptop -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc]
+WARNING: [Vivado 12-584] No ports matched 'btn_up_i'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_left_i'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_right_i'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_down_i'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc]
+Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_Clock.xdc]
+Finished Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_Clock.xdc]
+Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc]
+WARNING: [Vivado 12-584] No ports matched 'leds_o[8]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_o[9]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_o[10]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_o[11]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_o[12]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_o[13]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_o[14]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_o[15]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc]
+Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PS2.xdc]
+WARNING: [Vivado 12-584] No ports matched 'ps2_sclk_io'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PS2.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PS2.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ps2_sdata_io'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PS2.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PS2.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ps2_*'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PS2.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PS2.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ps2_*'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PS2.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PS2.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PS2.xdc]
+Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc]
+WARNING: [Vivado 12-584] No ports matched 'pmod_a1'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_a2'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_a3'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_a4'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_a7'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_a8'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_a9'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_a10'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_a*'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc]
+Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc]
+WARNING: [Vivado 12-584] No ports matched 'pmod_b1'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_b2'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_b3'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_b4'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_b7'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_b8'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_b9'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_b10'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_b*'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc]
+Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc]
+WARNING: [Vivado 12-584] No ports matched 'pmod_c1'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_c2'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_c3'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_c4'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_c7'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_c8'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_c9'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_c10'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_c*'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodC.xdc]
+Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc]
+WARNING: [Vivado 12-584] No ports matched 'pmod_xadc1'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_xadc2'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_xadc3'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_xadc4'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_xadc7'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_xadc8'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_xadc9'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_xadc10'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_xadc*'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_PmodXADC.xdc]
+Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_SegmentDisplay.xdc]
+Finished Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_SegmentDisplay.xdc]
+Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_Switches.xdc]
+Finished Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_Switches.xdc]
+Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_UART.xdc]
+WARNING: [Vivado 12-584] No ports matched 'uart_rx_i'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_UART.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_UART.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_rx_i'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_UART.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_UART.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_tx_o'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_UART.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_UART.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_tx_o'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_UART.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_UART.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_UART.xdc]
+Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc]
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[0]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[1]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[2]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[3]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[*]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[0]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[1]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[2]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[3]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[*]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[0]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[1]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[2]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[3]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[*]'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_hsync_n_o'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_hsync_n_o'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_vsync_n_o'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_vsync_n_o'. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_VGA.xdc]
+Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_td_combinatoire.xdc]
+Finished Parsing XDC File [C:/Users/user/Downloads/CoCiNum/src/vhdl/Basys3/Basys3_td_combinatoire.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 621.695 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 75 Warnings, 75 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 625.707 ; gain = 334.750
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net index_comparer has multiple drivers: index_comparer_reg__0/Q, and index_comparer_reg/Q.
+INFO: [Project 1-461] DRC finished with 1 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 642.688 ; gain = 16.980
+INFO: [Common 17-83] Releasing license: Implementation
+12 Infos, 75 Warnings, 75 Critical Warnings and 2 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 28 11:37:49 2025...

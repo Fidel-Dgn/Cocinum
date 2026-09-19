@@ -1,0 +1,1 @@
+-wto "908852767562459b9ef616e472aa5264" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "MicrowaveTop_behav" "xil_defaultlib.MicrowaveTop" -log "elaborate.log" 

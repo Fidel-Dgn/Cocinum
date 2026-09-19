@@ -1,0 +1,12 @@
+#!/bin/bash
+
+VERSION=2019.1
+
+if [ "$(which vivado)" == "" ]; then
+    export XILINX_VIVADO=/opt/Xilinx/Vivado/$VERSION
+    export PATH=$XILINX_VIVADO/bin:$PATH
+    export LANG=en_US.UTF-8
+    export LC_ALL=en_US.UTF-8
+fi
+
+vivado $* &

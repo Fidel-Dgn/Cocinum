@@ -1,0 +1,3 @@
+#!/bin/bash
+
+gtkterm --port /dev/ttyUSB1 --speed 115200 &
